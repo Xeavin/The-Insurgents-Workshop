@@ -266,7 +266,7 @@ namespace Formats.Ebp
                             bw.Write(entry.ViewAngle.Z);
                             bw.Write(entry.ViewAngle.W);
                             bw.Write(entry.Roll);
-                            bw.Write(entry.Fov);
+                            bw.Write(entry.VerticalFov);
                             bw.Write(entry.Unknown3);
                             bw.Write(entry.Unknown4);
                             bw.Write(entry.Unused0);
